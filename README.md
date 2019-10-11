@@ -2,8 +2,9 @@
 dictionaries, grammatical data, word counts
 
 here you will find:
-* P J Heslin's prebuilt data
+* P J Heslin's prebuilt parsing data
 * H Dik's logeion entries
+* Perseus Latin lexical data
 * pre-built wordcounts via a run of `HipparchiaBuilder` followed by `archivewordcounts.py` [which is availaible in this repository]
 
 ***
