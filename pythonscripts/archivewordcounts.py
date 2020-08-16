@@ -1,12 +1,21 @@
 # -*- coding: utf-8 -*-
 """
         HipparchiaServer: an interface to a database of Greek and Latin texts
-        Copyright: E Gunderson 2016-19
+        Copyright: E Gunderson 2016-20
         License: GNU GENERAL PUBLIC LICENSE 3
                 (see LICENSE in the top level directory of the distribution)
 """
+
 import os
 import subprocess
+
+"""
+
+rather than build the wordcounts one could load them
+
+this will let you archive a collection of cordcounts for subsequent reloading
+
+"""
 
 # pg_dump --host localhost --port 5432 --username postgres --format plain --ignore-version --verbose --file "<abstract_file_path>" --table public.tablename dbname
 
