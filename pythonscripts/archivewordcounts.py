@@ -19,7 +19,7 @@ this will let you archive a collection of cordcounts for subsequent reloading
 
 # pg_dump --host localhost --port 5432 --username postgres --format plain --ignore-version --verbose --file "<abstract_file_path>" --table public.tablename dbname
 
-# export PGPASSWORD="HIPPARDPASSHERE" python3 archivewordcounts.py
+# export PGPASSWORD="HIPPARDPASSHERE"; python3 archivewordcounts.py
 
 dir_path = os.path.dirname(os.path.realpath(__file__))
 
