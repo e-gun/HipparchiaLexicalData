@@ -9,6 +9,7 @@ do
 
 	# add the right newlines...
 	gsed -i 's/<\/div2> <div2 /<\/div2>\n\n<div2 /g' $f
+	gsed -i 's/<\/div2><div2 /<\/div2>\n\n<div2 /g' $f
 done
 
 cat great* > logeion.lsj.xml
